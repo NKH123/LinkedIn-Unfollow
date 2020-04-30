@@ -16,7 +16,7 @@ button.click()
 print("Waiting for it to load the homepage")
 time.sleep(6)
 driver.get('https://www.linkedin.com/mynetwork/invite-connect/connections/')
-for i in range(0,100): 
+for i in range(0,50): 
 	driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 	driver.execute_script("window.scrollTo(document.body.scrollHeight,0)")
 	time.sleep(0.5)
@@ -29,7 +29,7 @@ for i in Name:
 	f.write('\n')
 f.close()
 driver.get('https://www.linkedin.com/feed/followers/') 
-for i in range(0,100): 
+for i in range(0,50): 
 	driver.execute_script("window.scrollTo(0,document.body.scrollHeight)")
 	driver.execute_script("window.scrollTo(document.body.scrollHeight,0)")
 	time.sleep(0.5)
