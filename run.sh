@@ -6,3 +6,4 @@ g++ find_gits.cpp
 #cleanup
 rm followers.txt
 rm connections.txt
+rm a.out
