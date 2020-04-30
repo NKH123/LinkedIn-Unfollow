@@ -6,7 +6,6 @@ driver=webdriver.Chrome('/home/neeraj/Downloads/chromedriver_linux64/chromedrive
 driver.get('https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin') 
 username=driver.find_element_by_id('username') 
 username_=input("Enter email or username: ")
-username_="neerajdeshpande55@yahoo.com"
 password_ = getpass.getpass(prompt='Enter password: ')
 username.send_keys(username_)
 password=driver.find_element_by_id('password') 
